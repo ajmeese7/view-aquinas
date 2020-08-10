@@ -1,0 +1,15 @@
+{
+  "name": "view-aquinas",
+  "description": "Makes the Aquinas.dev dark mode less bad.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://aquinas.dev/*"], 
+      "css" : ["betterDark.css"]
+    }
+  ],
+  "manifest_version": 2
+}
